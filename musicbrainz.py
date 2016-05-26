@@ -7,14 +7,46 @@ musicbrainzngs.set_useragent(
 	"canoc4262@gmail.com"
 )
 
+artist_list = {
+	"artist_list": [
+
+	]
+}
+
+artist_object = {
+	"meta": {
+
+	},
+
+	"album_list": [
+
+	]
+}
+
 #Coldplay
 artist_id = "cc197bad-dc9c-440d-a5b5-d52ba2e14234"
 #Eminem
 single_artist_id = "b95ce3ff-3d05-4e87-9e01-c97b66af13d4"
 
-artist_query = musicbrainzngs.get_artist_by_id(single_artist_id, includes=['artist-rels', 'release-groups'])
-print("ARTIST: ", artist_query)
+artist_query = musicbrainzngs.get_artist_by_id(
+	single_artist_id, 
+	includes=['artist-rels', 'release-groups']
+)
+#print("ARTIST: ", artist_query)
 
+#The Marshall Mathers LP (For Testing and Viewing Python Dict)
+album_id = "b1fdc9cc-8680-44da-abab-59edca6b2ad3"
+album2_id = "1dc4c347-a1db-32aa-b14f-bc9cc507b843"
+album_query = musicbrainzngs.get_release_group_by_id(
+	album2_id, 
+	includes=['label-rels', 'ratings'],
+	#release_status=['official'], 
+	#release_type=['album']
+)
+print("ALBUM: ", album_query)
+
+
+artist_name = artist_query["artist"]["name"]
 
 # Get members through artist id query
 members_of_group = []
@@ -32,26 +64,19 @@ else:
 	print("Members of group: ", members_of_group)
 
 
-artist_list = {
-	"artist_list": [
+releases = artist_query['artist']['release-group-list']
 
-	]
-}
-
-artist_object = {
-	"meta": {
-
-	},
-
-	"album_list": [
-
-	]
-
-}
-
-artist_name = artist_query["artist"]["name"]
-print("Artist: {artist}".format(artist=artist_query['artist']["name"]))
-
+album_list = []
+for release in releases:
+		
+		if release['type'] == 'Album' :
+			#can get album id to get more info
+			album = {
+				"name": release['title'],
+				"label": "",#release['label'],
+				"release_date": ""
+			}
+			artist_object["album_list"].append(album)
 
 meta = {
 	"name": artist_name,
@@ -60,70 +85,10 @@ meta = {
 artist_object["meta"].update(meta)
 
 
-
-releases = musicbrainzngs.browse_release_groups(
-	artist=single_artist_id,
-	limit=20,
-	#release_status=['official'],
-	release_type=['album']
-)
-#print(releases)
-album_list = []
-
-
-for release in releases['release-group-list']:
-		
-		if release['type'] == 'Album':
-			#can get album id to get more info
-			album = {
-				"name": release['title'],
-				"label": "",#release['label'],
-				"release_date": "",
-				"cover-art": ""
-			}
-			artist_object["album_list"].append(album)
-
-
 artist_list["artist_list"].append(
 	artist_object
 )
 
-
-'''
-releases = musicbrainzngs.browse_releases(
-	artist=artist_query['id'],
-	format='CD',
-	limit=2000, 
-	release_status=['official'],
-	release_type=['album']
-)
-
-album_list = []
-
-for release in releases['release-list']:
-	album_list.append("Album: {title}".format(title=release['title']))
-
-for release in set(album_list):
-	print(release)
-'''
-
-'''
-recordings = musicbrainzngs.search_recordings(
-	arid=artist['id'],
-	format='CD',
-	primarytype='album',
-	limit=5000
-)
-
-
-album_list = []
-
-for recording in recordings['recording-list']:
-	album_list.append("Album: {title}".format(title=recording['title']))
-
-for recording in set(album_list):
-	print(recording)
-'''
 
 artists_file = '%s.json' %(artist_name)
 f = open(artists_file, 'w')

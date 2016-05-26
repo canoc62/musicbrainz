@@ -1,122 +1,104 @@
 {
     "artist_list": [
         {
+            "meta": {
+                "members": [
+                    "Marshall Bruce Mathers"
+                ],
+                "name": "Eminem"
+            },
             "album_list": [
                 {
                     "name": "Mathers Massacre",
-                    "label": "",
-                    "cover-art": "",
-                    "release_date": ""
+                    "release_date": "",
+                    "label": ""
                 },
                 {
                     "name": "The Marshall Mathers LP (Slowed & Chopped)",
-                    "label": "",
-                    "cover-art": "",
-                    "release_date": ""
+                    "release_date": "",
+                    "label": ""
                 },
                 {
                     "name": "Encore",
-                    "label": "",
-                    "cover-art": "",
-                    "release_date": ""
+                    "release_date": "",
+                    "label": ""
                 },
                 {
                     "name": "Eminem Presents The Re\u2010Up",
-                    "label": "",
-                    "cover-art": "",
-                    "release_date": ""
+                    "release_date": "",
+                    "label": ""
                 },
                 {
                     "name": "Marshall\u2019s Law",
-                    "label": "",
-                    "cover-art": "",
-                    "release_date": ""
+                    "release_date": "",
+                    "label": ""
                 },
                 {
                     "name": "Infinite",
-                    "label": "",
-                    "cover-art": "",
-                    "release_date": ""
+                    "release_date": "",
+                    "label": ""
                 },
                 {
                     "name": "Whiteboy Wasted",
-                    "label": "",
-                    "cover-art": "",
-                    "release_date": ""
+                    "release_date": "",
+                    "label": ""
                 },
                 {
                     "name": "Double",
-                    "label": "",
-                    "cover-art": "",
-                    "release_date": ""
+                    "release_date": "",
+                    "label": ""
                 },
                 {
                     "name": "Detroit King",
-                    "label": "",
-                    "cover-art": "",
-                    "release_date": ""
+                    "release_date": "",
+                    "label": ""
                 },
                 {
                     "name": "Recovery",
-                    "label": "",
-                    "cover-art": "",
-                    "release_date": ""
+                    "release_date": "",
+                    "label": ""
                 },
                 {
                     "name": "The Marshall Mathers LP",
-                    "label": "",
-                    "cover-art": "",
-                    "release_date": ""
+                    "release_date": "",
+                    "label": ""
                 },
                 {
                     "name": "The Marshall Mathers LP 2",
-                    "label": "",
-                    "cover-art": "",
-                    "release_date": ""
+                    "release_date": "",
+                    "label": ""
                 },
                 {
                     "name": "The Slim Shady LP",
-                    "label": "",
-                    "cover-art": "",
-                    "release_date": ""
+                    "release_date": "",
+                    "label": ""
                 },
                 {
                     "name": "Encore (Instrumentals)",
-                    "label": "",
-                    "cover-art": "",
-                    "release_date": ""
+                    "release_date": "",
+                    "label": ""
                 },
                 {
                     "name": "The Eminem Show",
-                    "label": "",
-                    "cover-art": "",
-                    "release_date": ""
+                    "release_date": "",
+                    "label": ""
                 },
                 {
                     "name": "Relapse",
-                    "label": "",
-                    "cover-art": "",
-                    "release_date": ""
+                    "release_date": "",
+                    "label": ""
                 },
                 {
                     "name": "The Underground Collection",
-                    "label": "",
-                    "cover-art": "",
-                    "release_date": ""
+                    "release_date": "",
+                    "label": ""
                 },
                 {
                     "name": "The Freestyle Show",
-                    "label": "",
-                    "cover-art": "",
-                    "release_date": ""
+                    "release_date": "",
+                    "label": ""
                 }
-            ],
-            "meta": {
-                "name": "Eminem",
-                "members": [
-                    "Marshall Bruce Mathers"
-                ]
-            }
+            ]
         }
     ]
 }

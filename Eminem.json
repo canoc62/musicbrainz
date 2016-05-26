@@ -2,101 +2,47 @@
     "artist_list": [
         {
             "meta": {
+                "name": "Eminem",
                 "members": [
                     "Marshall Bruce Mathers"
-                ],
-                "name": "Eminem"
+                ]
             },
             "album_list": [
                 {
-                    "name": "Mathers Massacre",
-                    "release_date": "",
-                    "label": ""
+                    "release_date": "2004-11-12",
+                    "name": "Encore"
                 },
                 {
-                    "name": "The Marshall Mathers LP (Slowed & Chopped)",
-                    "release_date": "",
-                    "label": ""
+                    "release_date": "2006-12-04",
+                    "name": "Eminem Presents The Re\u2010Up"
                 },
                 {
-                    "name": "Encore",
-                    "release_date": "",
-                    "label": ""
+                    "release_date": "1996-11-12",
+                    "name": "Infinite"
                 },
                 {
-                    "name": "Eminem Presents The Re\u2010Up",
-                    "release_date": "",
-                    "label": ""
+                    "release_date": "2010-06-21",
+                    "name": "Recovery"
                 },
                 {
-                    "name": "Marshall\u2019s Law",
-                    "release_date": "",
-                    "label": ""
+                    "release_date": "2000-05-22",
+                    "name": "The Marshall Mathers LP"
                 },
                 {
-                    "name": "Infinite",
-                    "release_date": "",
-                    "label": ""
+                    "release_date": "2013-09-20",
+                    "name": "The Marshall Mathers LP 2"
                 },
                 {
-                    "name": "Whiteboy Wasted",
-                    "release_date": "",
-                    "label": ""
+                    "release_date": "1999-02-23",
+                    "name": "The Slim Shady LP"
                 },
                 {
-                    "name": "Double",
-                    "release_date": "",
-                    "label": ""
+                    "release_date": "2002-05-27",
+                    "name": "The Eminem Show"
                 },
                 {
-                    "name": "Detroit King",
-                    "release_date": "",
-                    "label": ""
-                },
-                {
-                    "name": "Recovery",
-                    "release_date": "",
-                    "label": ""
-                },
-                {
-                    "name": "The Marshall Mathers LP",
-                    "release_date": "",
-                    "label": ""
-                },
-                {
-                    "name": "The Marshall Mathers LP 2",
-                    "release_date": "",
-                    "label": ""
-                },
-                {
-                    "name": "The Slim Shady LP",
-                    "release_date": "",
-                    "label": ""
-                },
-                {
-                    "name": "Encore (Instrumentals)",
-                    "release_date": "",
-                    "label": ""
-                },
-                {
-                    "name": "The Eminem Show",
-                    "release_date": "",
-                    "label": ""
-                },
-                {
-                    "name": "Relapse",
-                    "release_date": "",
-                    "label": ""
-                },
-                {
-                    "name": "The Underground Collection",
-                    "release_date": "",
-                    "label": ""
-                },
-                {
-                    "name": "The Freestyle Show",
-                    "release_date": "",
-                    "label": ""
+                    "release_date": "2009-05-15",
+                    "name": "Relapse"
                 }
             ]
         }

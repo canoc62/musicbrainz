@@ -3,51 +3,46 @@
         {
             "album_list": [
                 {
-                    "name": "A Rush of Blood to the Head",
-                    "cover-art": "",
-                    "release_date": "",
-                    "label": ""
+                    "release_date": "2002-08-12",
+                    "name": "A Rush of Blood to the Head"
                 },
                 {
-                    "name": "Parachutes",
-                    "cover-art": "",
-                    "release_date": "",
-                    "label": ""
+                    "release_date": "2000-07-10",
+                    "name": "Parachutes"
                 },
                 {
-                    "name": "A Head Full of Dreams",
-                    "cover-art": "",
-                    "release_date": "",
-                    "label": ""
+                    "release_date": "2015-12-04",
+                    "name": "A Head Full of Dreams"
                 },
                 {
-                    "name": "Mylo Xyloto",
-                    "cover-art": "",
-                    "release_date": "",
-                    "label": ""
+                    "release_date": "2011-10-19",
+                    "name": "Mylo Xyloto"
                 },
                 {
-                    "name": "Ghost Stories",
-                    "cover-art": "",
-                    "release_date": "",
-                    "label": ""
+                    "release_date": "2014-05-16",
+                    "name": "Ghost Stories"
                 },
                 {
-                    "name": "Viva la Vida or Death and All His Friends",
-                    "cover-art": "",
-                    "release_date": "",
-                    "label": ""
+                    "release_date": "2008-05-26",
+                    "name": "Viva la Vida or Death and All His Friends"
                 },
                 {
-                    "name": "X&Y",
-                    "cover-art": "",
-                    "release_date": "",
-                    "label": ""
+                    "release_date": "2005-06-01",
+                    "name": "X&Y"
+                },
+                {
+                    "release_date": "2014",
+                    "name": "Ghost Stories (Instrumentals)"
                 }
             ],
             "meta": {
-                "name": "Coldplay",
-                "members": []
+                "members": [
+                    "Guy Berryman",
+                    "Will Champion",
+                    "Chris Martin",
+                    "Jon Buckland"
+                ],
+                "name": "Coldplay"
             }
         }
     ]

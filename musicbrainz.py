@@ -1,6 +1,15 @@
 import musicbrainzngs
 import json
 
+def check_for_official_album(album_release_list):
+	for release_list in album_release_list:
+		if release_list['status'] == 'Official':
+			return True
+	return False
+
+def check_for_release_event_list(album_release_list):
+	pass
+
 musicbrainzngs.set_useragent(
 	"musicbrainz-practice",
 	"0.1",
@@ -37,11 +46,13 @@ artist_query = musicbrainzngs.get_artist_by_id(
 #The Marshall Mathers LP (For Testing and Viewing Python Dict)
 album_id = "b1fdc9cc-8680-44da-abab-59edca6b2ad3"
 album2_id = "1dc4c347-a1db-32aa-b14f-bc9cc507b843"
+album3_id = "73ccdc34-3877-4509-9d82-8a6fe9941957"#Whiteboy Wasted
+album4_id = "715be5e7-3677-35c0-a39a-abf300ff9ba1" #Infinite
+album5_id = "67e94a91-f48e-3e59-9701-38a4dba28d0b" #ReUp
+album6_id = "ab7577c4-641d-49ad-ab02-cef742f7dea2" #Collision Course 3
 album_query = musicbrainzngs.get_release_group_by_id(
-	album2_id, 
-	includes=['label-rels', 'ratings'],
-	#release_status=['official'], 
-	#release_type=['album']
+	album4_id, 
+	includes=['label-rels', 'ratings', 'releases']#, 'release-rels']
 )
 print("ALBUM: ", album_query)
 
@@ -55,13 +66,13 @@ if artist_query['artist']['type'] == 'Group':
 
 		if member['type'] == 'member of band':
 			members_of_group.append(member['artist']['name'])
-	print("Members of group: ", members_of_group)
+	#print("Members of group: ", members_of_group)
 else:
 	for member in artist_query['artist']['artist-relation-list']:
 
 		if member['type'] == 'is person':
 			members_of_group.append(member['artist']['name'])
-	print("Members of group: ", members_of_group)
+	#print("Members of group: ", members_of_group)
 
 
 releases = artist_query['artist']['release-group-list']
@@ -69,14 +80,20 @@ releases = artist_query['artist']['release-group-list']
 album_list = []
 for release in releases:
 		
-		if release['type'] == 'Album' :
-			#can get album id to get more info
-			album = {
-				"name": release['title'],
-				"label": "",#release['label'],
-				"release_date": ""
-			}
-			artist_object["album_list"].append(album)
+		if release['type'] == 'Album':
+			album_info = musicbrainzngs.get_release_group_by_id(
+				release['id'], 
+				includes=['releases']
+			)
+			
+			#album_status = album_info['release-group']['release-list'][0]['status']
+			album_release_list = album_info['release-group']['release-list']
+			if check_for_official_album(album_release_list) == True:# and :
+				album = {
+					"name": release['title'],
+					"release_date": release['first-release-date']
+				}
+				artist_object["album_list"].append(album)
 
 meta = {
 	"name": artist_name,
@@ -94,6 +111,8 @@ artists_file = '%s.json' %(artist_name)
 f = open(artists_file, 'w')
 f.write(json.dumps(artist_list, indent=4, sort_keys=False))
 f.close()
+
+
 
 
 

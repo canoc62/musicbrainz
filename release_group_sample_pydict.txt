@@ -1,0 +1,38 @@
+{'release-group': 
+	{
+		'secondary-type-list': ['Mixtape/Street'], 
+		'title': 'Collision Course 3', 
+		'id': 'ab7577c4-641d-49ad-ab02-cef742f7dea2', 
+		'first-release-date': '2014-02-03', 
+		'primary-type': 'Other', 
+		'release-count': 1, 
+		'release-list': [
+			{
+				'release-event-count': 1, 
+				'title': 'Collision Course 3', 
+				'id': '7475e5bb-68d8-493e-bac4-49b73793b61c', 
+				'quality': 'normal', 
+				'date': '2014-02-03', 
+				'barcode': '', 
+				'release-event-list': [
+					{
+						'date': '2014-02-03', 
+						'area': {
+						'id': '525d4e18-3d00-31b9-a58b-a146a916de8f', 
+						'name': '[Worldwide]', 
+						'sort-name': '[Worldwide]', 
+						'iso-3166-1-code-list': ['XW']
+						}
+					}
+				], 
+				'country': 'XW', 
+				'status': 'Bootleg', 
+				'text-representation': {
+					'language': 'eng', 'script': 'Latn'
+				}, 
+				'packaging': 'None'
+			}
+		], 
+	'type': 'Other'
+	}
+}

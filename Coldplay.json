@@ -1,0 +1,54 @@
+{
+    "artist_list": [
+        {
+            "album_list": [
+                {
+                    "name": "A Rush of Blood to the Head",
+                    "cover-art": "",
+                    "release_date": "",
+                    "label": ""
+                },
+                {
+                    "name": "Parachutes",
+                    "cover-art": "",
+                    "release_date": "",
+                    "label": ""
+                },
+                {
+                    "name": "A Head Full of Dreams",
+                    "cover-art": "",
+                    "release_date": "",
+                    "label": ""
+                },
+                {
+                    "name": "Mylo Xyloto",
+                    "cover-art": "",
+                    "release_date": "",
+                    "label": ""
+                },
+                {
+                    "name": "Ghost Stories",
+                    "cover-art": "",
+                    "release_date": "",
+                    "label": ""
+                },
+                {
+                    "name": "Viva la Vida or Death and All His Friends",
+                    "cover-art": "",
+                    "release_date": "",
+                    "label": ""
+                },
+                {
+                    "name": "X&Y",
+                    "cover-art": "",
+                    "release_date": "",
+                    "label": ""
+                }
+            ],
+            "meta": {
+                "name": "Coldplay",
+                "members": []
+            }
+        }
+    ]
+}

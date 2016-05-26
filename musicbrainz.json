@@ -1,0 +1,312 @@
+{
+    "artist_list": [
+        {
+            "meta": {
+                "members": [],
+                "name": "Coldplay"
+            },
+            "album_list": [
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "2000-10-25: Cardiff University, Cardiff, UK"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "2002-07-15: EinsLive, Cologne, Germany"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "A Rush of Blood to the Head"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "2003-01-28: Verizon Wireless Theater, Houston, TX, USA"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "2002-08-12: Bowery Ballroom, New York, NY, USA"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "That Hits"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "Parachutes"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "2002-08-12: Bowery Ballroom, New York, NY, USA"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "Ghost Stories Live 2014"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "A Head Full of Dreams"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "2006-02-13: Abbey Road Studios, London, UK"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "Best of You"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "Live 2012"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "2000-07-24: Maida Vale, London, UK"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "Live 2003"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "2000-11-05: Crossing Borders Festival: Amsterdam, The Netherlands"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "Coldplay 4 CD Catalogue Set"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "2003-02-25: Montr\u00e9al, QC, Canada"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "The Singles 1999 - 2008"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "2002-08-27: One Night in Paris"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "After After Before"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "2009-07-19: Stripped Acoustic Session, Capitol Records Studio, Hollywood, CA, USA"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "Mylo Xyloto"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "LeftRightLeftRightLeft"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "Castles"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "B-Sides"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "2001-02-13: Mayan Theater, Los Angeles, CA, USA"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "2002-06-28: Glastonbury Festival, Pilton, UK"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "2003-01-28: Houston, TX, USA"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "2002: Glastonbury, UK"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "Ghost Stories"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "Viva la Vida or Death and All His Friends"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "2002-11-05: Ahoy Hall, Rotterdam, The Netherlands"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "2003-02-09: Phoenix, AZ, USA"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "2002-08-27: Paris, France"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "X&Y"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "2011-06-25: Glastonbury Festival 2011"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "2003-04-05: Sporthalle, B\u00f6blingen, Germany"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "Radio Eins Live"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "Greatest Hits"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "Songs for the One I Love"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "Without Parachutes"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "Royal Philarmonic Orchestra"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "2000-07-10: HMV, Oxford Street, London, UK"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "A Rush of B-Sides to Your Head"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "Life Is for Living"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "A Head Full of Dreams / Instrumentals"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "2002-08-27: Olympia, Paris, France"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "2002-08-29: Forum, London, UK"
+                },
+                {
+                    "cover-art": "",
+                    "label": "",
+                    "release_date": "",
+                    "name": "2002-06-26: Wisseloord Studios, Hilversum, The Netherlands"
+                }
+            ]
+        }
+    ]
+}

@@ -111,9 +111,3 @@ artists_file = '%s.json' %(artist_name)
 f = open(artists_file, 'w')
 f.write(json.dumps(artist_list, indent=4, sort_keys=False))
 f.close()
-
-
-
-
-
-
